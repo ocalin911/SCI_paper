@@ -1,0 +1,328 @@
+#Amintiri din copilarie
+
+X<- c(a=0.168,b=0.012,c=0.059,d=0.037,e=0.104,f=0.009,g=0.009,h=0.005,i=0.103,j=0.002,k=0,
+l=0.042,m=0.039,n=0.062,o=0.037,p=0.031,q=0,r=0.053,s=0.061,t=0.062,u=0.063,v=0.012,
+w=0,x=0,y=0,z=0.007)
+plot(X, type ="h", lwd="12")
+plot(X, type ="h", lwd="12", xlab="letter", ylab="frequency", main="Probability 
+distribution of letters in Romanian language")
+
+
+text(x=1, y = X[1]+0.005, label='a')
+text(x=2, y = X[2]+0.005, label='b')
+text(x=3, y = X[3]+0.005, label='c')
+text(x=4, y = X[4]+0.005, label='d')
+text(x=5, y = X[5]+0.005, label='e')
+text(x=6, y = X[6]+0.005, label='f')
+text(x=7, y = X[7]+0.005, label='g')
+text(x=8, y = X[8]+0.005, label='h')
+text(x=9, y = X[9]+0.005, label='i')
+text(x=10, y = X[10]+0.005, label='j')
+text(x=11, y = X[11]+0.005, label='k')
+text(x=12, y = X[12]+0.005, label='l')
+text(x=13, y = X[13]+0.005, label='m')
+text(x=14, y = X[14]+0.005, label='n')
+text(x=15, y = X[15]+0.005, label='o')
+text(x=16, y = X[16]+0.005, label='p')
+text(x=17, y = X[17]+0.005, label='q')
+text(x=18, y = X[18]+0.005, label='r')
+text(x=19, y = X[19]+0.005, label='s')
+text(x=20, y = X[20]+0.005, label='t')
+text(x=21, y = X[21]+0.005, label='u')
+text(x=22, y = X[22]+0.005, label='v')
+text(x=23, y = X[23]+0.005, label='w')
+text(x=24, y = X[24]+0.005, label='x')
+text(x=25, y = X[25]+0.005, label='y')
+text(x=26, y = X[26]+0.005, label='z')
+
+abline(h=0, col="red" )
+abline(h=0.05, col="red" )
+abline(h=0.10, col="red" )
+abline(h=0.15, col="red" )
+############################################################################
+#Byron poetry Vol I
+
+X<-c(a=0.0731,b=0.0159,c=0.0233, d=0.03849, e=0.1254,f=0.02357,g=0.020,h=0.063,i=0.0633,j=0.00118,
+k=0.0061,l=0.04979,m=0.027,n=0.063,o=0.076,p=0.0172,q=0.001,r=0.06615,s=0.0737,t=0.08286,
+u=0.030351,v=0.0107,w=0.0235,x=0.00137,y=0.02168,z=0.00078)
+
+plot(X, type ="h", lwd="12", xlab="letter", ylab="frequency", main="Probability letters distribution in Byron's poetry")
+
+
+text(x=1, y = X[1]+0.005, label='a')
+text(x=2, y = X[2]+0.005, label='b')
+text(x=3, y = X[3]+0.005, label='c')
+text(x=4, y = X[4]+0.005, label='d')
+text(x=5, y = X[5]+0.004, label='e')
+text(x=6, y = X[6]+0.005, label='f')
+text(x=7, y = X[7]+0.005, label='g')
+text(x=8, y = X[8]+0.005, label='h')
+text(x=9, y = X[9]+0.005, label='i')
+text(x=10, y = X[10]+0.005, label='j')
+text(x=11, y = X[11]+0.005, label='k')
+text(x=12, y = X[12]+0.005, label='l')
+text(x=13, y = X[13]+0.005, label='m')
+text(x=14, y = X[14]+0.005, label='n')
+text(x=15, y = X[15]+0.005, label='o')
+text(x=16, y = X[16]+0.005, label='p')
+text(x=17, y = X[17]+0.005, label='q')
+text(x=18, y = X[18]+0.005, label='r')
+text(x=19, y = X[19]+0.005, label='s')
+text(x=20, y = X[20]+0.005, label='t')
+text(x=21, y = X[21]+0.005, label='u')
+text(x=22, y = X[22]+0.005, label='v')
+text(x=23, y = X[23]+0.005, label='w')
+text(x=24, y = X[24]+0.005, label='x')
+text(x=25, y = X[25]+0.005, label='y')
+text(x=26, y = X[26]+0.005, label='z')
+
+abline(h=0, col="red" )
+abline(h=0.05, col="red" )
+abline(h=0.10, col="red" )
+abline(h=0.15, col="red" )
+
+############################################################################
+#Jefferson the virginian
+X<-c(a=0.0765,b=0.0158,c=0.02864, d=0.040,e=0.12989,f=0.02795,g=0.0179,h=0.0578,i=0.07275,j=0.00393,k=0.0036,l=0.0379,m=0.025,n=0.0718,o=0.0768,p=0.0187,
+q=0.0011,r=0.06218,s=0.0634,t=0.0918,u=0.0254,v=0.01157,w=0.01875,x=0.00224,y=0.0153,z=0.00056)
+
+
+plot(X, type ="h", lwd="12", xlab="letter", ylab="frequency", main="Probability letters distribution in Jefferson The Virginian")
+
+
+text(x=1, y = X[1]+0.005, label='a')
+text(x=2, y = X[2]+0.005, label='b')
+text(x=3, y = X[3]+0.005, label='c')
+text(x=4, y = X[4]+0.005, label='d')
+text(x=5, y = X[5]+0.004, label='e')
+text(x=6, y = X[6]+0.005, label='f')
+text(x=7, y = X[7]+0.005, label='g')
+text(x=8, y = X[8]+0.005, label='h')
+text(x=9, y = X[9]+0.005, label='i')
+text(x=10, y = X[10]+0.005, label='j')
+text(x=11, y = X[11]+0.005, label='k')
+text(x=12, y = X[12]+0.005, label='l')
+text(x=13, y = X[13]+0.005, label='m')
+text(x=14, y = X[14]+0.005, label='n')
+text(x=15, y = X[15]+0.005, label='o')
+text(x=16, y = X[16]+0.005, label='p')
+text(x=17, y = X[17]+0.005, label='q')
+text(x=18, y = X[18]+0.005, label='r')
+text(x=19, y = X[19]+0.005, label='s')
+text(x=20, y = X[20]+0.005, label='t')
+text(x=21, y = X[21]+0.005, label='u')
+text(x=22, y = X[22]+0.005, label='v')
+text(x=23, y = X[23]+0.005, label='w')
+text(x=24, y = X[24]+0.005, label='x')
+text(x=25, y = X[25]+0.005, label='y')
+text(x=26, y = X[26]+0.005, label='z')
+
+abline(h=0, col="red" )
+abline(h=0.05, col="red" )
+abline(h=0.10, col="red" )
+abline(h=0.15, col="red" )
+
+############################################################################
+#Luceafarul
+X<-c(a=0.128,b=0.00835,c=0.0533,d=0.0412,e=0.11558,f=0.00969,g=0.0113,h=0.005119,i=0.1079,j=0.00175,k=0.0,
+l=0.04014,m=0.0374,n=0.0695,o=0.04122,p=0.02909,q=0.0,
+r=0.07315,s=0.061,t=0.060,u=0.063,v=0.0144,w=0.0, x=0.0, y=0.0005388, z=0.00552)
+
+
+plot(X, type ="h", lwd="12", xlab="letter", ylab="frequency", main="Probability letters distribution in The Morning Star")
+
+
+text(x=1, y = X[1]+0.004, label='a')
+text(x=2, y = X[2]+0.005, label='b')
+text(x=3, y = X[3]+0.005, label='c')
+text(x=4, y = X[4]+0.005, label='d')
+text(x=5, y = X[5]+0.004, label='e')
+text(x=6, y = X[6]+0.005, label='f')
+text(x=7, y = X[7]+0.005, label='g')
+text(x=8, y = X[8]+0.005, label='h')
+text(x=9, y = X[9]+0.005, label='i')
+text(x=10, y = X[10]+0.005, label='j')
+text(x=11, y = X[11]+0.005, label='k')
+text(x=12, y = X[12]+0.005, label='l')
+text(x=13, y = X[13]+0.005, label='m')
+text(x=14, y = X[14]+0.005, label='n')
+text(x=15, y = X[15]+0.005, label='o')
+text(x=16, y = X[16]+0.005, label='p')
+text(x=17, y = X[17]+0.005, label='q')
+text(x=18, y = X[18]+0.005, label='r')
+text(x=19, y = X[19]+0.005, label='s')
+text(x=20, y = X[20]+0.005, label='t')
+text(x=21, y = X[21]+0.005, label='u')
+text(x=22, y = X[22]+0.005, label='v')
+text(x=23, y = X[23]+0.005, label='w')
+text(x=24, y = X[24]+0.005, label='x')
+text(x=25, y = X[25]+0.005, label='y')
+text(x=26, y = X[26]+0.005, label='z')
+
+abline(h=0, col="red" )
+abline(h=0.05, col="red" )
+abline(h=0.10, col="red" )
+abline(h=0.15, col="red" )
+
+############################################################################
+#Genesis
+X<-c(a=0.101932,b=0.017538,c=0.017156,d=0.06059,e=0.126965,f=0.023821,
+g=0.015246,h=0.0873244,i=0.054901,j=0.003213,k=0.00617,l=0.03601,m=0.02633,n=0.073961,
+o=0.067428,p=0.012171,q=0.0001119,r=0.050686,s=0.0573118,t=0.0894781,
+u=0.02347269,v=0.0089241,w=0.0203509,x=0.0004478,y=0.01772965,z=0.00071)
+
+
+plot(X, type ="h", lwd="12", xlab="letter", ylab="frequency", main="Probability letters distribution in Genesis")
+
+
+text(x=1, y = X[1]+0.004, label='a')
+text(x=2, y = X[2]+0.005, label='b')
+text(x=3, y = X[3]+0.005, label='c')
+text(x=4, y = X[4]+0.005, label='d')
+text(x=5, y = X[5]+0.004, label='e')
+text(x=6, y = X[6]+0.005, label='f')
+text(x=7, y = X[7]+0.005, label='g')
+text(x=8, y = X[8]+0.005, label='h')
+text(x=9, y = X[9]+0.005, label='i')
+text(x=10, y = X[10]+0.005, label='j')
+text(x=11, y = X[11]+0.005, label='k')
+text(x=12, y = X[12]+0.005, label='l')
+text(x=13, y = X[13]+0.005, label='m')
+text(x=14, y = X[14]+0.005, label='n')
+text(x=15, y = X[15]+0.005, label='o')
+text(x=16, y = X[16]+0.005, label='p')
+text(x=17, y = X[17]+0.005, label='q')
+text(x=18, y = X[18]+0.005, label='r')
+text(x=19, y = X[19]+0.005, label='s')
+text(x=20, y = X[20]+0.005, label='t')
+text(x=21, y = X[21]+0.005, label='u')
+text(x=22, y = X[22]+0.005, label='v')
+text(x=23, y = X[23]+0.005, label='w')
+text(x=24, y = X[24]+0.005, label='x')
+text(x=25, y = X[25]+0.005, label='y')
+text(x=26, y = X[26]+0.005, label='z')
+
+abline(h=0, col="red" )
+abline(h=0.05, col="red" )
+abline(h=0.10, col="red" )
+abline(h=0.15, col="red" )
+
+#Othello
+X<-c(a=0.0770,
+b=0.014259,
+c= 0.021079,
+d= 0.04083,
+e= 0.118526,
+f= 0.0197,
+g= 0.0191,
+h= 0.06309,
+i= 0.07314,
+j= 0.00074,
+k= 0.0084058,
+l= 0.0459604,
+m= 0.0307006,
+n= 0.0624962,
+o= 0.09420558,
+p= 0.0133027,
+q= 0.0006466,
+r= 0.05333,
+s= 0.065979,
+t= 0.0880413,
+u= 0.03122656,
+v= 0.011406057,
+w= 0.021993085,
+x= 0.001155262,
+y= 0.02336388,
+z= 0.000198)
+
+plot(X, type ="h", lwd="12", xlab="letter", ylab="frequency", main="Probability letters distribution in Othello")
+
+
+text(x=1, y = X[1]+0.004, label='a')
+text(x=2, y = X[2]+0.005, label='b')
+text(x=3, y = X[3]+0.005, label='c')
+text(x=4, y = X[4]+0.005, label='d')
+text(x=5, y = X[5]+0.004, label='e')
+text(x=6, y = X[6]+0.005, label='f')
+text(x=7, y = X[7]+0.005, label='g')
+text(x=8, y = X[8]+0.005, label='h')
+text(x=9, y = X[9]+0.005, label='i')
+text(x=10, y = X[10]+0.005, label='j')
+text(x=11, y = X[11]+0.005, label='k')
+text(x=12, y = X[12]+0.005, label='l')
+text(x=13, y = X[13]+0.005, label='m')
+text(x=14, y = X[14]+0.005, label='n')
+text(x=15, y = X[15]+0.005, label='o')
+text(x=16, y = X[16]+0.005, label='p')
+text(x=17, y = X[17]+0.005, label='q')
+text(x=18, y = X[18]+0.005, label='r')
+text(x=19, y = X[19]+0.005, label='s')
+text(x=20, y = X[20]+0.005, label='t')
+text(x=21, y = X[21]+0.005, label='u')
+text(x=22, y = X[22]+0.005, label='v')
+text(x=23, y = X[23]+0.005, label='w')
+text(x=24, y = X[24]+0.005, label='x')
+text(x=25, y = X[25]+0.005, label='y')
+text(x=26, y = X[26]+0.005, label='z')
+
+abline(h=0, col="red" )
+abline(h=0.05, col="red" )
+abline(h=0.10, col="red" )
+abline(h=0.15, col="red" )
+
+#Jefferson Virginian
+X<-c(a=0.0765,b=0.0158,c=0.02864, d=0.040,e=0.12989,f=0.02795,g=0.0179,h=0.0578,i=0.07275,j=0.00393,k=0.0036,l=0.0379,m=0.025,n=0.0718,o=0.0768,p=0.0187,
+q=0.0011,r=0.06218,s=0.0634,t=0.0918,u=0.0254,v=0.01157,w=0.01875,x=0.00224,y=0.0153,z=0.00056)
+
+#Othello
+Y<-c(a=0.0770,
+b=0.014259,
+c= 0.021079,
+d= 0.04083,
+e= 0.118526,
+f= 0.0197,
+g= 0.0191,
+h= 0.06309,
+i= 0.07314,
+j= 0.00074,
+k= 0.0084058,
+l= 0.0459604,
+m= 0.0307006,
+n= 0.0624962,
+o= 0.09420558,
+p= 0.0133027,
+q= 0.0006466,
+r= 0.05333,
+s= 0.065979,
+t= 0.0880413,
+u= 0.03122656,
+v= 0.011406057,
+w= 0.021993085,
+x= 0.001155262,
+y= 0.02336388,
+z= 0.000198)
+
+
+############################
+#Byron
+Z<-c(a=0.0731,b=0.0159,c=0.0233, d=0.03849, e=0.1254,f=0.02357,g=0.020,h=0.063,i=0.0633,j=0.00118,
+k=0.0061,l=0.04979,m=0.027,n=0.063,o=0.076,p=0.0172,q=0.001,r=0.06615,s=0.0737,t=0.08286,
+u=0.030351,v=0.0107,w=0.0235,x=0.00137,y=0.02168,z=0.00078)
+
+#Genesis
+G<-c(a=0.101932,b=0.017538,c=0.017156,d=0.06059,e=0.126965,f=0.023821,
+g=0.015246,h=0.0873244,i=0.054901,j=0.003213,k=0.00617,l=0.03601,m=0.02633,n=0.073961,
+o=0.067428,p=0.012171,q=0.0001119,r=0.050686,s=0.0573118,t=0.0894781,
+u=0.02347269,v=0.0089241,w=0.0203509,x=0.0004478,y=0.01772965,z=0.00071)
+
+
+#Kullback-Leibler relative entropy
+KL<-function(X, Y){
+KL=0
+for(i in 1:26)
+{
+KL <- KL + X[i]*log(X[i]/Y[i],2)
+}
+KL
+}
+
